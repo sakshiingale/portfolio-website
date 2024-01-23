@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+
+        
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio Website</title>
+    </head>
+    <body>
+        
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Portfolio</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Sakshi</span><br> Frontend Developer</h1>
+
+                    <a href="#contact" class="button">Contact me</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/sakshi-ingale1801/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://discord.com/" class="home__social-icon"><i class='bx bxl-discord' ></i></a>
+                    <a href="https://github.com/sakshiingale" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">    
+                    <img src="me.JPG" alt="">
+                </div>
+            </section>
+
+            
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="about.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Sakshi Ingale</h2>
+                        <p class="about__text">Third year engineering student at PES Modern College of engineering, Pune. 
+                          Pro efficiency in front end development and languages including Python, Java, C++ , MySQL. 
+                          I am committed to leveraging my skills in technical expertise</p>
+                                   
+                    </div>                                   
+                </div>
+            </section>
+
+
+
+
+            
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">
+                    <div class="skills__box">
+                        <h3 class="skills__subtitle">Development</h3>
+                        <span class="skills__name">C++</span>
+                        <span class="skills__name">Python</span>
+                        <span class="skills__name">Java</span>
+                        
+                        <span class="skills__name">Html</span>
+                        <span class="skills__name">Css</span>
+                        <span class="skills__name">Javascript</span>
+                        <span class="skills__name">React</span>
+                        <span class="skills__name">Angular</span>
+                    
+                        <h3 class="skills__subtitle">Machine Learning</h3>
+                        <span class="skills__name">Python</span>
+                        
+                        
+                        <h3 class="skills__subtitle">Database</h3>
+                        <span class="skills__name">MySQLite</span>
+                        <span class="skills__name">MongoDB</span>
+                        
+
+
+
+                        <h3 class="skills__subtitle">Design</h3>
+                        <span class="skills__name">Figma</span>
+                        <span class="skills__name">Photoshop</span>
+                        
+
+                    </div>
+
+                    <div class="skills__img">
+                        <img src="hi.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section-title">Work</h2>
+
+                <div class="portfolio__container bd-grid-section">
+                    <div class="portfolio__img">
+                        <img src="work1.jpg" alt="">
+                        <h2>Calculator </h2>
+                        <div class="portfolio__link">
+                            <a href="https://github.com/sakshiingale/codsoft-task3" target="_blank" class="portfolio__link-name">  calculator using basic html and css</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="work2.png" alt="">
+                        <h2>Interior design landing page</h2>
+
+                        <div class="portfolio__link">
+                            <a href="https://github.com/sakshiingale/codsoft-task1" target="_blank" class="portfolio__link-name">interior designing website
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="work3.png" alt="">
+                        <h2 >Basic html webpage</h2>
+
+                        <div class="portfolio__link">
+                            <a href="https://github.com/sakshiingale/demo1" target="_blank" class="portfolio__link-name">Basic information website</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="https://getform.io/f/4ece6f5c-e9c3-41bb-94db-12156ab4bedd" method="POST" class="contact__form">
+                        <input type="text" placeholder="Name" name="name" class="contact__input">
+                        <input type="mail" placeholder="Email" name="email" class="contact__input">
+                        <textarea cols="0" rows="10" name="message" class="contact__input"></textarea>
+                        <input type="submit" value="Enquire" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        
+        <footer class="footer">
+            <p class="footer__title">Sakshi</p>
+            <div class="footer__social">
+                <a href="https://www.facebook.com/" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://www.instagram.com/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://twitter.com/" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p>&#169; 2024 copyright all right reserved</p>
+        </footer>
+
+
+        
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        
+        <script src="main.js"></script>
+    </body>
+</html>
